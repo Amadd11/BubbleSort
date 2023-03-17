@@ -17,7 +17,9 @@ namespace BubbleShort1
         //Deklarasi variable int untuk menyimpan banyaknya data pada array
         private int n;
 
-        // Fungsi / method atau menerima masukan
+        /// <summary>
+        /// Fungsi / method atau menerima masukan
+        /// </summary>
         public void Read()
         {
             //Menerima angka untuk menentukan banyaknya data yang disimpan pada array
@@ -44,6 +46,9 @@ namespace BubbleShort1
                 a[i] = Int32.Parse(s);
             }
         }
+        /// <summary>
+        /// Membuat Method Display
+        /// </summary>
         public void Display()
         {
             Console.WriteLine("");
